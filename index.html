@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HEPAD'a Destek Ol</title>
+  <meta name="description" content="HEPAD'a yuva olarak, bağış yaparak veya HEPAD Shop'u ziyaret ederek destek olun." />
+  <style>
+    :root {
+      --bg: #f7f1e7;
+      --card: #ffffff;
+      --text: #2f3740;
+      --muted: #6f7880;
+      --blue: #21aae2;
+      --blue-dark: #168fc0;
+      --line: #eadfce;
+      --cream: #f7f1e7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--cream);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card {
+      width: min(100%, 520px);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 36px 26px;
+      text-align: center;
+      box-shadow: 0 14px 40px rgba(33, 170, 226, 0.10);
+    }
+
+    .paw {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(28px, 6vw, 38px);
+      line-height: 1.12;
+      color: var(--blue);
+    }
+
+    p {
+      margin: 0 auto 28px;
+      max-width: 390px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: grid;
+      gap: 14px;
+    }
+
+    a {
+      display: block;
+      padding: 17px 18px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 17px;
+      transition: transform .15s ease, background .15s ease, color .15s ease;
+    }
+
+    a:hover {
+      transform: translateY(-1px);
+    }
+
+    .primary,
+    .secondary {
+      border: 2px solid var(--blue);
+      color: var(--blue);
+      background: var(--cream);
+    }
+
+    .primary:hover,
+    .secondary:hover {
+      background: var(--blue);
+      color: #ffffff;
+    }
+
+    .note {
+      margin-top: 22px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="paw">🐾</div>
+
+    <h1>Bir Canın Hayatına Dokunun</h1>
+
+    <p>
+      HEPAD'a destek olmak için aşağıdaki seçeneklerden birini seçebilirsiniz.
+    </p>
+
+    <div class="buttons">
+      <a
+        class="primary"
+        href="https://hepad.org/yuva-ol/"
+        target="_blank"
+        rel="noopener"
+      >
+        Bir Dostumuza Yuva Ol
+      </a>
+
+      <a
+        class="secondary"
+        href="https://fonzip.com/hepad/bagis-yap"
+        target="_blank"
+        rel="noopener"
+      >
+        HEPAD'a Bağış Yap
+      </a>
+
+      <a
+        class="secondary"
+        href="https://hepadshop.com/"
+        target="_blank"
+        rel="noopener"
+      >
+        HEPAD Shop'u Ziyaret Et
+      </a>
+    </div>
+
+    <div class="note">HEPAD • Hayvanları Koruma ve Yaşatma Derneği</div>
+  </main>
+</body>
+</html>
